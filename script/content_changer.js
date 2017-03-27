@@ -1,32 +1,5 @@
 var contentIDs = ["about", "portfolio", "social", "resume"];
 
-if(getCookieVal("testMode") == "")
-{
-	setCookieVal("testMode", false);
-}
-
-var testMode = eval(getCookieVal("testMode"));
-
-if(testMode)
-{
-	setInterval(function(){
-		if(document.hasFocus()){reloadData}},10000);
-}
-	
-function toggleTestMode()
-{
-	if(testMode)
-	{
-		testMode = false;
-	}
-	else
-	{
-		testMode = true;
-	}
-	setCookieVal("testMode", testMode);
-	reloadData();
-}
-
 function setContent(contentID)
 {
 	console.log(contentID);
