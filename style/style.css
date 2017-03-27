@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+body
+{
+    max-width: 842px;
+    width: 90%;
+    background:linear-gradient(rgb(50,30,30),rgb(16,16,16));
+    margin: 0px auto;
+    font-size: 11pt;
+    padding-bottom: 5%;
+}
+#body_area
+{	
+    padding-margin: 12%;
+    border: white solid;
+    border-radius: 3px;
+    background-color: white;
+}
+
+body *
+{
+	font-family: 'Muli', sans-serif;
+}
+
+#logo_area 
+{
+    margin-bottom: -22px;
+    margin-top: 1px;
+	text-align: center;
+}
+#logo_area img
+{
+    width: 20%;
+	text-align: center;
+    
+    border-radius: 100%;
+	
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 0px 1px rgba(0,0,0,1);
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,1);
+}
+
+#menu_area
+{
+    height: 19px;
+	text-align: center;
+    border-bottom: 1px black solid;
+}
+#menu_left
+{
+	float: left;
+}
+#menu_right
+{
+	float: right;
+}
+#menu_left, #menu_right
+{
+	min-width: 40%;
+}
+#menu_area button
+{
+	margin-left: .5%;
+	margin-right: .5%;
+	width: 46%;
+	background-color: transparent;
+	
+	padding:0;
+	border-style: none;
+
+	height: 20px;
+	
+	border-style: dashed;
+    border-width: 1px;
+    border-color: black;
+	border-bottom-style:none;
+}
+#menu_area button:active
+{
+	outline: none;	
+	-webkit-filter: invert(0);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(invert='0');
+}
+#menu_area button:focus 
+{
+    outline: none;
+}
+#menu_area button:hover
+{
+    background: white;
+	border-color: #191919;
+	-webkit-filter: invert(1);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+	filter: invert(1);
+	cursor: inherit;
+}
+#menu_area .active_button
+{
+	pointer-events: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+	border-bottom-style: none;
+    background-color: rgb(240,240,240);
+}
+
+#content_area
+{
+	clear: left;
+	background-color: rgb(240,240,240);
+    
+	padding: 1em;
+	padding-top: 1px;
+	
+	border: 1px black solid;
+    border-top: none;
+}
+#content_area h1
+{
+    font-size: 16pt;
+    text-align: center;
+    padding: 4px;
+	margin: 0 auto;
+}
+#content_area h3
+{
+	font-size: 19pt;
+	margin-bottom: 0px;
+}
+#content_area p
+{
+	margin:0px;
+}
+
+hr
+{
+    background: black;
+    height: 1px;
+    border: none;
+}
+
+#footer
+{
+	text-align: center;
+	margin-bottom: -1em;
+	font-size: 8pt;
+}
+#footer hr
+{
+	margin: 6px -15px;
+}
+
+#footer img
+{
+	cursor: help;
+	margin-bottom: 5px;
+}

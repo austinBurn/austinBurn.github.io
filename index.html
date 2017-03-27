@@ -1,0 +1,92 @@
+<html>
+	<head>
+		<title>Burn World, next as heck</title>
+		<link rel="icon" type="image/png" href="../image/favicon.bmp">
+		<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="./style/style.css">
+	</head>
+
+	<body onload="initSite()">
+		<div id="logo_area"> 
+			<img id="logo_image" src="./image/logo.jpg" alt="Burn World"/>
+		</div>
+
+		<div id="body_area">
+			<div id="menu_area">
+				<div id="menu_left">
+					<button type="button" id="about_btn" onmousedown="navTo(this)">About</button>
+					<button type="button" id="portfolio_btn" onmousedown="navTo(this)">Portfolio</button>
+				</div>
+
+				<div id="menu_right">
+					<button type="button" id="social_btn" onmousedown="navTo(this)">Social</button>
+					<button type="button" id="resume_btn" onmousedown="navTo(this)">Résumé</button>
+				</div>
+			</div>
+
+			<div id="content_area">
+				<div id="content_body">
+					<div id="about" style="display:none">
+						<h1>Austin Burn</h1>
+						<ul>
+							<li>
+								Programmer/Scripter
+								<ul>
+									<li>Java</li>
+									<li>JavaScript god</li>
+									<li>Objective-C</li>
+									<li>Visual Basic</li>
+								</ul>
+							</li>
+							<li>Attending Sask. Polytechnic
+								<ul>
+									<li>Computer Systems Technology</li>
+								</ul>
+							</li>
+							<li>Team player</li>
+							<li>Reverse engineer</li>
+							<li>Web developer</li>							
+							<li>Hardware whiz</li>
+						<ul>
+					</div>
+					<div id="portfolio" style="display:none">
+						<ul>
+							<li><a href="http://burn.world">Burn.World</a>
+								<ul>
+									<li>A website I made to train myself in the art of JavaScript and CSS</li>
+									<li>Not for the faint of heart</li>
+								</ul>
+							</li>
+							<li><a href="https://github.com/austinBurn">My GitHub</a>
+								<ul><li>The majority of my projects will be hosted here</li></ul>
+							</li>
+						<ul>
+
+					</div>
+					<div id="social" style="display:none">
+						<ul>
+							<li><a href="https://linkedin.com/in/austin-burn-629246139">Linkedin</a></li>
+							<li><a href="https://twitter.com/realAustinBurn">Twitter</a></li>
+							<li><a href="https://github.com/austinBurn">GitHub</a></li>
+							<li><a href="mailto:austin_burn@hotmail.com">e-Mail</a></li>
+						</ul>
+					</div>
+					<div id="resume" style="display:none">
+						<h1><i>Updated: March 27, 2017</i></h1>
+						<ul><li><a href="./resume/burn_resume.docx">docx</a></li>
+							<li><a href="./resume/burn_resume.pdf">pdf</a></li>
+						</ul>
+					</div>
+					<div id="footer">
+						<p>
+							<hr/>Austin Burn, 2017
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="../script/monolith.js"></script>
+
+		<script src="./script/content_changer.js"></script>
+	</body>
+</html>
